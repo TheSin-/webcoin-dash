@@ -1,28 +1,28 @@
 // blockchain definition
 
-var u = require('dash-util')
+var u = require('terracoin-util')
 
 // definition of the genesis block's header
 var genesisHeader = {
   version: 1,
   prevHash: u.nullHash,
-  merkleRoot: u.toHash('e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7'),
-  time: 1390095618,
-  bits: 0x1e0ffff0,
-  nonce: 28917698
+  merkleRoot: u.toHash('0f8b09f93803b067580c16c3f3a6aaa901be06ad892cea9f02d8a4f93628f196'),
+  time: 1351242683,
+  bits: 0x1d00ffff,
+  nonce: 2820375594
 }
 
 // selected block headers for verifying initial sync
 var checkpoints = [
   {
-    height: 407452,
+    height: 1087500,
     header: {
       version: 3,
-      prevHash: u.toHash('0000000000010eedb86810ef7ce941fabc7d2be0c0fa2bf8dfcb5b48f573d15b'),
-      merkleRoot: u.toHash('d0761697a9ec536c444591e0ff4dbcba8c78df0263444a5229db58e600e1359d'),
-      time: 1453463939,
-      bits: 0x1b0f1aee,
-      nonce: 872384581
+      prevHash: u.toHash('c84183a1fab798fbc63a0da4b3e7a344b30ba46326622214f21e4f4e7aea377f'),
+      merkleRoot: u.toHash('218b778f9202438dc20fa733e4da6eb3cc6ddc710c3de38d8fcbcf6d2cb2f2d9'),
+      time: 1506940111,
+      bits: 0x01152605,
+      nonce: 0
     }
   }
 ]

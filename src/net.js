@@ -1,11 +1,9 @@
-var magic = 0xbd6b0cbf
-var defaultPort = 9999
+var magic = 0x42babe56
+var defaultPort = 13333
 
 var dnsSeeds = [
-    'dnsseed.darkcoin.io',
-    'dnsseed.darkcoin.qa',
-    'dnsseed.masternode.io',
-    'dnsseed.dashpay.io'
+    'seed.terracoin.io',
+    'dnsseed.southofheaven.ca'
 ]
 var webSeeds = []
 

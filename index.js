@@ -1,4 +1,4 @@
-var params = require('webcoin-params-dash')
+var params = require('webcoin-params-terracoin')
 
 module.exports = params({
   blockchain: require('./lib/blockchain.js'),

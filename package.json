@@ -21,8 +21,8 @@
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "terracoin-util": "^2.0.0",
-    "webcoin-params-terracoin": "^1.0.0"
+    "terracoin-util": "TheSin-/terracoin-util",
+    "webcoin-params-terracoin": "TheSin-/webcoin-params-terracoin"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",

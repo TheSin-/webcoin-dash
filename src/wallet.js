@@ -7,5 +7,5 @@ module.exports = {
   pubKeyHash: 0x00,
   scriptHash: 0x05,
   wif: 0x80,
-  dustThreshold: 5460 // https://github.com/TheSin-/bitcore-lib-terracoin/blob/master/lib/transaction/transaction.js#L66
+  dustThreshold: 5460 // https://github.com/terracoin/bitcore-lib-terracoin/blob/master/lib/transaction/transaction.js#L66
 }

@@ -21,8 +21,8 @@
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "terracoin-util": "TheSin-/terracoin-util",
-    "webcoin-params-terracoin": "TheSin-/webcoin-params-terracoin"
+    "terracoin-util": "^2.0.3",
+    "webcoin-params-terracoin": "^1.0.4"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
@@ -37,10 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheSin-/webcoin-terracoin.git"
+    "url": "git+https://github.com/terracoin/webcoin-terracoin.git"
   },
   "bugs": {
-    "url": "https://github.com/TheSin-/webcoin-terracoin/issues"
+    "url": "https://github.com/terracoin/webcoin-terracoin/issues"
   },
-  "homepage": "https://github.com/TheSin-/webcoin-terracoin#readme"
+  "homepage": "https://github.com/terracoin/webcoin-terracoin#readme"
 }

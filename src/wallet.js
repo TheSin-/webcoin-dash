@@ -1,5 +1,5 @@
 module.exports = {
-  messagePrefix: '\x18DarkCoin Signed Message:\n',
+  messagePrefix: '\x19DarkCoin Signed Message:\n',
   bip32: {
     public: 0x0488b21e,
     private: 0x0488ade4
